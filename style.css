@@ -8,20 +8,20 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #f0f5ff;
+    background-color: aliceblue; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #1e293b;
+    color: midnightblue;
 }
 
 .cabecalho {
-    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #2563eb 100%);
+    background-color: lightblue;
     padding: 35px 20px;
     text-align: center;
-    box-shadow: 0 4px 20px rgba(37, 99, 235, 0.25);
+    box-shadow: 0 4px 20px powderblue;
 }
 
 h1 {
-    color: #ffffff;
+    color: midnightblue;
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -40,7 +40,7 @@ main {
 }
 
 .categoria h3 {
-    color: #1e3a8a;
+    color: midnightblue;
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 24px;
@@ -57,7 +57,7 @@ main {
     top: 2px;
     bottom: 2px;
     width: 6px;
-    background: linear-gradient(180deg, #2563eb, #38bdf8);
+    background: steelblue;
     border-radius: 4px;
 }
 
@@ -97,9 +97,9 @@ main {
 }
 
 .frente {
-    background: #ffffff;
-    border: 1px solid #dbeafe;
-    box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.1), 0 8px 10px -6px rgba(37, 99, 235, 0.05);
+    background-color: white;
+    border: 1px solid lightblue;
+    box-shadow: 0 10px 25px -5px lightgray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,7 +108,7 @@ main {
 }
 
 .cartao:hover .frente {
-    border-color: #93c5fd;
+    border-color: deepskyblue;
 }
 
 .imagem {
@@ -116,7 +116,7 @@ main {
     height: 140px;
     overflow: hidden;
     border-radius: 10px;
-    background-color: #eff6ff;
+    background-color: aliceblue;
 }
 
 .imagem img {
@@ -131,7 +131,7 @@ main {
 }
 
 .frente p {
-    color: #1e3a8a;
+    color: midnightblue;
     font-weight: 700;
     font-size: 15px;
     text-align: center;
@@ -139,8 +139,8 @@ main {
 }
 
 .verso {
-    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
-    color: #ffffff;
+    background-color: midnightblue;
+    color: white;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -148,11 +148,11 @@ main {
     justify-content: center;
     text-align: center;
     padding: 20px;
-    box-shadow: 0 10px 25px -5px rgba(30, 58, 138, 0.4);
+    box-shadow: 0 10px 25px -5px darkgray;
 }
 
 .verso p {
-    color: #f0f9ff;
+    color: aliceblue;
     font-size: 13px;
     line-height: 1.5;
     margin: 0;
@@ -163,28 +163,27 @@ main {
     display: inline-block;
     margin-top: 14px;
     padding: 8px 16px;
-    background-color: #38bdf8;
-    color: #0f172a;
+    background-color: deepskyblue;
+    color: white;
     text-decoration: none;
     border-radius: 8px;
     font-weight: 700;
     font-size: 12px;
     transition: all 0.25s ease;
-    box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+    box-shadow: 0 4px 12px skyblue;
 }
 
 .video:hover {
-    background-color: #ffffff;
-    color: #1e3a8a;
+    background-color: white;
+    color: midnightblue;
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(255, 255, 255, 0.4);
 }
 
 footer {
-    background-color: #0f172a;
+    background-color: midnightblue;
     padding: 22px;
-    color: #94a3b8;
+    color: lightgray;
     text-align: center;
     font-size: 14px;
-    border-top: 1px solid #1e293b;
+    border-top: 1px solid steelblue;
 }
